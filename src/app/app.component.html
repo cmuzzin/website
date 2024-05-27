@@ -2,27 +2,19 @@
   <div class="container">
     <div id="navMenu" class="navbar-menu">
       <div class="navbar-end">
-        <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-info">
-              <i-feather class="ml-1" name="mail"></i-feather>
-            </a>
-            <a class="button is-dark">
-              <i-feather class="ml-1" name="github"></i-feather>
-            </a>
-            <a class="button is-link">
-              <i-feather class="ml-1" name="linkedin"></i-feather>
-            </a>
-          </div>
-        </div>
+        <a class="navbar-item" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+          Home
+        </a>
+        <a class="navbar-item" routerLink="/career" routerLinkActive="active">
+          Career
+        </a>
+        <a class="navbar-item" routerLink="/projects" routerLinkActive="active">
+          Projects
+        </a>
       </div>
     </div>
   </div>
 </nav>
-<section class="hero is-info">
-  <div class="hero-body">
-    <p class="title">Chris Muzzin</p>
-    <p class="subtitle">Front End Software Engineer </p>
-  </div>
-</section>
-<router-outlet />
+<div class="container">
+  <router-outlet />
+</div>

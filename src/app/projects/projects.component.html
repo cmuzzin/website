@@ -1,0 +1,78 @@
+ <div class="columns is-multiline">
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-primary-dark">
+            <div class="card-content">
+                <p class="title">MOPS - Marking operations</p>
+                <p class="subtitle">Creation of Marketing Campaigns</p>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true">
+                    @for(photo of mopsPhotos; track photo) {
+                        <swiper-slide>
+                            <figure class="image is-2by1">
+                                <img [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-info-dark">
+            <div class="card-content equal-height">
+                <p class="title">MCM - Marketing Campaign Manager</p>
+                <p class="subtitle">Schduling and Campaign Content Management</p>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true">
+                    @for(photo of mcmPhotos; track photo) {
+                        <swiper-slide>
+                            <figure class="image is-2by1">
+                                <img [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-link-dark">
+            <div class="card-content equal-height">
+                <p class="title">SPC - Store planning</p>
+                <p class="subtitle">Store Planning and Inventory</p>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true">
+                    @for(photo of spcPhotos; track photo) {
+                        <swiper-slide>
+                            <figure class="image is-2by1">
+                                <img [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-warning-dark">
+            <div class="card-content equal-height">
+                <p class="title">Roast My Coffee House</p>
+                <p class="subtitle">Mobile App</p>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true" slides-per-view="4">
+                    @for(photo of rmchPhotos; track photo) {
+                        <swiper-slide>
+                            <figure class="image">
+                                <img class="mobile" [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
+  </div>

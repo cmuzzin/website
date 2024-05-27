@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 
 import { FeatherModule } from 'angular-feather';
-import { Mail, Github, Linkedin } from 'angular-feather/icons';
+import { Mail, Github, Linkedin, Download } from 'angular-feather/icons';
 
 const icons = {
+  Download,
   Mail,
   Github,
   Linkedin
