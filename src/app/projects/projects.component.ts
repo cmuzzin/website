@@ -43,19 +43,19 @@ export class ProjectsComponent {
   ];
 
   rmchPhotos = [
-    'rmch-photos/sign-in.PNG',
-    'rmch-photos/sign-up.PNG',
-    'rmch-photos/map.PNG',
-    'rmch-photos/marker.PNG',
-    'rmch-photos/tab2.PNG',
-    'rmch-photos/nobm.PNG',
-    'rmch-photos/search.PNG',
-    'rmch-photos/suggest.PNG',
-    'rmch-photos/shop.PNG',
-    'rmch-photos/rating.PNG',
-    'rmch-photos/map.PNG',
-    'rmch-photos/settings.PNG',
-    'rmch-photos/profile.PNG',
-    'rmch-photos/submission.PNG',
+    'rmch-photos/rmch1.PNG',
+    'rmch-photos/rmch2.PNG',
+    'rmch-photos/rmch3.PNG',
+    'rmch-photos/rmch4.PNG',
+    'rmch-photos/rmch5.PNG',
+    'rmch-photos/rmch6.PNG',
+    'rmch-photos/rmch7.PNG',
+    'rmch-photos/rmch8.PNG',
+    'rmch-photos/rmch9.PNG',
+    'rmch-photos/rmch10.PNG',
+    'rmch-photos/rmch11.PNG',
+    'rmch-photos/rmch12.PNG',
+    'rmch-photos/rmch13.PNG',
+    'rmch-photos/rmch14.PNG',
   ];
 }
