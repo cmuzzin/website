@@ -58,4 +58,20 @@ export class ProjectsComponent {
     'rmch-photos/rmch13.PNG',
     'rmch-photos/rmch14.PNG',
   ];
+
+  rmchWebPhotos = [
+    'rmch_web/login.PNG',
+    'rmch_web/tab1.PNG',
+    'rmch_web/tab2.PNG',
+    'rmch_web/tab3.PNG',
+    'rmch_web/popover.PNG',
+    'rmch_web/profile.PNG',
+    'rmch_web/search.PNG',
+    'rmch_web/suggest.PNG',
+    'rmch_web/suggestions.PNG',
+    'rmch_web/dataeditor.PNG',
+    'rmch_web/shop.PNG',
+    'rmch_web/roast.PNG',
+
+  ]
 }
