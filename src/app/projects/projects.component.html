@@ -57,14 +57,14 @@
         </div>
     </div>
     <div class="column is-10 is-offset-1">
-        <div class="card has-background-warning">
+        <div class="card has-background-link-dark">
             <div class="card-content equal-height">
                 <p class="title">Roast My Coffee House</p>
                 <p class="subtitle has-text-white">Mobile App</p>
             </div>
             <div class="card-image">
                 <swiper-container navigation="true" pagination="true" slides-per-view="5">
-                    @for(photo of rmchPhotos; track photo) {
+                    @for(photo of rmchPhonePhotos; track photo) {
                         <swiper-slide class="mobile-swiper-slide">
                             <figure class="image">
                                 <img class="mobile" [src]="photo">
@@ -76,15 +76,15 @@
         </div>
     </div>
     <div class="column is-10 is-offset-1">
-        <div class="card has-background-danger">
+        <div class="card has-background-link">
             <div class="card-content equal-height">
-                <p class="title">Roast My Coffee House Web</p>
-                <p class="subtitle has-text-white">Web App</p>
+                <p class="title">Roast My Coffee House</p>
+                <p class="subtitle has-text-white">Tablet App</p>
             </div>
             <div class="card-image">
-                <swiper-container navigation="true" pagination="true">
-                    @for(photo of rmchWebPhotos; track photo) {
-                        <swiper-slide class="mobile-swiper-slide">
+                <swiper-container navigation="true" pagination="true" slides-per-view="2">
+                    @for(photo of rmchTabletPhotos; track photo) {
+                        <swiper-slide  class="tablet-slide">
                             <figure class="image">
                                 <img [src]="photo">
                             </figure>
