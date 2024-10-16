@@ -73,6 +73,6 @@ export class ProjectsComponent {
     'rmch_tablet/shop.png',
     'rmch_tablet/noreview.png',
     'rmch_tablet/roast.png',
-    'rmch_tablet/roas2.png',
+    'rmch_tablet/roast2.png',
   ]
 }
