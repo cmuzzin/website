@@ -1,9 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'bulma/sass/utilities/initial-variables';
-@import 'bulma/bulma';
-@import 'swiper/css';
-@import 'swiper/css/navigation';
-@import 'swiper/css/pagination';
+@use 'bulma/sass/utilities/initial-variables';
+@use 'bulma/bulma';
+@use 'swiper/css';
+@use 'swiper/css/navigation';
+@use 'swiper/css/pagination';
 
 .h-100 {
     height: 100%;
