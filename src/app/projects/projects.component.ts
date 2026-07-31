@@ -73,5 +73,57 @@ export class ProjectsComponent {
     'rmch_tablet/noreview.png',
     'rmch_tablet/roast.png',
     'rmch_tablet/roast2.png',
-  ]
+  ];
+
+  rmchDMPhotos = [
+  'rmch_v2/dm-login.PNG',
+  'rmch_v2/dm-signup.PNG',
+  'rmch_v2/dm-list.PNG',
+  'rmch_v2/dm-map.PNG',
+  'rmch_v2/dm-shop-popover.PNG',
+  'rmch_v2/dm-roasted.PNG',
+  'rmch_v2/dm-add-collection.PNG',
+  'rmch_v2/dm-discover.PNG',
+  'rmch_v2/dm-nearby-shops.PNG',
+  'rmch_v2/dm-recent-roasts.PNG',
+  'rmch_v2/dm-shop.PNG',
+  'rmch_v2/dm-roast.PNG',
+  'rmch_v2/dm-roast2.PNG',
+  'rmch_v2/dm-photo.PNG',
+  'rmch_v2/dm-settings.PNG',
+  'rmch_v2/dm-account.PNG',
+  'rmch_v2/dm-changepw.PNG',
+  'rmch_v2/dm-profile.PNG'
+];
+
+rmchLMPhotos = [
+  'rmch_v2/lm-login.PNG',
+  'rmch_v2/lm-signup.PNG',
+  'rmch_v2/lm-list.PNG',
+  'rmch_v2/lm-map.PNG',
+  'rmch_v2/lm-shop-popover.PNG',
+  'rmch_v2/lm-roasted.PNG',
+  'rmch_v2/lm-add-collection.PNG',
+  'rmch_v2/lm-discover.PNG',
+  'rmch_v2/lm-nearby-shops.PNG',
+  'rmch_v2/lm-recent-roasts.PNG',
+  'rmch_v2/lm-shop.PNG',
+  'rmch_v2/lm-roast.PNG',
+  'rmch_v2/lm-roast2.PNG',
+  'rmch_v2/lm-photo.PNG',
+  'rmch_v2/lm-settings.PNG',
+  'rmch_v2/lm-account.PNG',
+  'rmch_v2/lm-changepw.PNG',
+  'rmch_v2/lm-profile.PNG',
+];
+
+ afPhotos = [
+  'AF/comparison.png',
+  'AF/chart.png',
+  'AF/distribution-table.png',
+  'AF/dist-table-open.png',
+  'AF/settings.png',
+  'AF/adverse-action.png',
+];
+
 }

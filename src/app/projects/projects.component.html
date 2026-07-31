@@ -94,4 +94,62 @@
             </div>
         </div>
     </div>
+     <div class="column is-10 is-offset-1">
+        <div class="card has-background-warning">
+            <div class="card-content equal-height">
+                <p class="title">Roast My Coffee House ( v2 )</p>
+                <p class="subtitle has-text-white">Dark Mode</p>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true" slides-per-view="5">
+                    @for(photo of rmchDMPhotos; track photo) {
+                        <swiper-slide class="mobile-swiper-slide">
+                            <figure class="image">
+                                <img class="mobile" [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
+
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-danger">
+            <div class="card-content equal-height">
+                <p class="title">Roast My Coffee House ( v2 )</p>
+                <p class="subtitle has-text-white">Light Mode</p>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true" slides-per-view="5">
+                    @for(photo of rmchLMPhotos; track photo) {
+                        <swiper-slide class="mobile-swiper-slide">
+                            <figure class="image">
+                                <img class="mobile" [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
+    <div class="column is-10 is-offset-1">
+    <div class="card has-background-dark">
+        <div class="card-content equal-height">
+            <p class="title has-text-white">Analyses Factory - Score Comparison and Adverse Action</p>
+            <p class="subtitle has-text-white">Analysis and Distribution Reporting</p>
+        </div>
+        <div class="card-image">
+            <swiper-container navigation="true" pagination="true">
+                @for(photo of afPhotos; track photo) {
+                    <swiper-slide>
+                        <figure class="image is-2by1">
+                            <img [src]="photo">
+                        </figure>
+                    </swiper-slide>
+                }
+            </swiper-container>
+        </div>
+    </div>
+</div>
   </div>
