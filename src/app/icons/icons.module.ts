@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-
 import { FeatherModule } from 'angular-feather';
 import { Mail, Github, Linkedin, Download } from 'angular-feather/icons';
 
@@ -11,11 +10,7 @@ const icons = {
 };
 
 @NgModule({
-  imports: [
-    FeatherModule.pick(icons)
-  ],
-  exports: [
-    FeatherModule
-  ]
+  imports: [ FeatherModule.pick(icons)],
+  exports: [FeatherModule]
 })
 export class IconsModule { }
