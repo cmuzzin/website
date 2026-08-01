@@ -59,22 +59,6 @@ export class ProjectsComponent {
     'rmch_phone/roast.png',
   ];
 
-  rmchTabletPhotos = [
-    'rmch_tablet/login.png',
-    'rmch_tablet/signup.png',
-    'rmch_tablet/map.png',
-    'rmch_tablet/preview.png',
-    'rmch_tablet/tab2.png',
-    'rmch_tablet/search.png',
-    'rmch_tablet/suggest.png',
-    'rmch_tablet/settings.png',
-    'rmch_tablet/profile.png',
-    'rmch_tablet/shop.png',
-    'rmch_tablet/noreview.png',
-    'rmch_tablet/roast.png',
-    'rmch_tablet/roast2.png',
-  ];
-
   rmchDMPhotos = [
   'rmch_v2/dm-login.PNG',
   'rmch_v2/dm-signup.PNG',
@@ -83,8 +67,12 @@ export class ProjectsComponent {
   'rmch_v2/dm-shop-popover.PNG',
   'rmch_v2/dm-roasted.PNG',
   'rmch_v2/dm-add-collection.PNG',
+   'rmch_v2/dm-collections.PNG',
+  'rmch_v2/dm-collection.PNG',
   'rmch_v2/dm-discover.PNG',
+  'rmch_v2/dm-leaderboard.PNG',
   'rmch_v2/dm-nearby-shops.PNG',
+  'rmch_v2/dm-submit-shop.PNG',
   'rmch_v2/dm-recent-roasts.PNG',
   'rmch_v2/dm-shop.PNG',
   'rmch_v2/dm-roast.PNG',
@@ -104,8 +92,12 @@ rmchLMPhotos = [
   'rmch_v2/lm-shop-popover.PNG',
   'rmch_v2/lm-roasted.PNG',
   'rmch_v2/lm-add-collection.PNG',
+    'rmch_v2/lm-collections.PNG',
+  'rmch_v2/lm-collection.PNG',
   'rmch_v2/lm-discover.PNG',
+  'rmch_v2/lm-leaderboard.PNG',
   'rmch_v2/lm-nearby-shops.PNG',
+  'rmch_v2/lm-submit-shop.png',
   'rmch_v2/lm-recent-roasts.PNG',
   'rmch_v2/lm-shop.PNG',
   'rmch_v2/lm-roast.PNG',
