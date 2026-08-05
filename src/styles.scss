@@ -12,3 +12,19 @@
 .w-100 {
     width: 100%;
 }
+
+// Cards use the "grey-lighter" helper for their background, which Bulma
+// hard-codes to a fixed color regardless of theme. Override it so dark mode
+// gets a darker grey card surface instead of staying stuck on light grey;
+// light mode keeps Bulma's default grey-lighter untouched.
+@media (prefers-color-scheme: dark) {
+    .card.has-background-grey-lighter,
+    .card-header.has-background-grey-lighter {
+        background-color: var(--bulma-grey-darker) !important;
+    }
+
+    // Flip the paired dark text so it stays readable on the darker card.
+    .card.has-background-grey-lighter .has-text-dark {
+        color: var(--bulma-grey-lighter) !important;
+    }
+}
