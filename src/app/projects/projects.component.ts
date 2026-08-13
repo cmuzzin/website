@@ -116,6 +116,16 @@ rmchLMPhotos = [
   'AF/dist-table-open.png',
   'AF/settings.png',
   'AF/adverse-action.png',
+  'AF/af-wizard-aa-step1.png',
+  'AF/af-wizard-aa-step2.png',
+  'AF/af-wizard-aa-step3.png',
+  'AF/af-wizard-aa-step4.png',
+  'AF/af-wizard-sa-step1.png',
+  'AF/af-wizard-sa-step2.png',
+  'AF/af-wizard-sa-step3.png',
+  'AF/af-wizard-sa-step4.png',
+  'AF/af-wizard-sa-step5.png',
+  'AF/af-wizard-sa-step6.png',
 ];
 
 }
