@@ -132,6 +132,7 @@ rmchLMPhotos = [
     'osrs-lookup-images/osrs-lookup-home.png',
     'osrs-lookup-images/osrs-lookup-home-recent-searches.png',
     'osrs-lookup-images/osrs-lookup-player-page.png',
+    'osrs-lookup-images/osrs-lookup-clan-page.png',
   ];
 
 }
