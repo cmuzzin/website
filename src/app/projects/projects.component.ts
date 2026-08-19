@@ -128,4 +128,10 @@ rmchLMPhotos = [
   'AF/af-wizard-sa-step6.png',
 ];
 
+  osrsLookupPhotos = [
+    'osrs-lookup-images/osrs-lookup-home.png',
+    'osrs-lookup-images/osrs-lookup-home-recent-searches.png',
+    'osrs-lookup-images/osrs-lookup-player-page.png',
+  ];
+
 }

@@ -133,6 +133,35 @@
         </div>
     </div>
 </div>
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-grey-lighter">
+            <div class="card-content equal-height">
+                <p class="title has-text-dark">OSRS Stat Lookup</p>
+                <p class="subtitle has-text-dark">AI-assisted side project built with Claude</p>
+                <div class="content mt-3">
+                    <p>
+                        A tool for looking up Old School RuneScape player stats - search any username to see hiscores levels, boss kill counts, minigame scores, clan memberships, and recent XP gains, powered by the Wise Old Man API. Built to hone my skills working with Claude.
+                    </p>
+                    <div class="buttons">
+                        <a class="button" href="https://osrs-lookup.web.app/" target="_blank" rel="noopener noreferrer">
+                            Web
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true" auto-height="true">
+                    @for(photo of osrsLookupPhotos; track photo) {
+                        <swiper-slide>
+                            <figure class="image">
+                                <img [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
   </div>
 
 
