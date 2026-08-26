@@ -197,6 +197,35 @@
             </div>
         </div>
     </div>
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-grey-lighter">
+            <div class="card-content equal-height">
+                <p class="title has-text-dark">OSRS Stat Lookup ( Redesign )</p>
+                <p class="subtitle has-text-dark">Light &amp; Dark Theme UI Refresh</p>
+                <div class="content mt-3">
+                    <p>
+                        A restyled pass on OSRS Stat Lookup - condensed header with an inline search bar, refreshed color palette, and full light/dark theme support across the home, player, and clan pages.
+                    </p>
+                    <div class="buttons">
+                        <a class="button" href="https://osrs-lookup.com/" target="_blank" rel="noopener noreferrer">
+                            Web
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true" auto-height="true">
+                    @for(photo of osrsLookupV2Photos; track photo) {
+                        <swiper-slide>
+                            <figure class="image">
+                                <img [src]="photo">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
   </div>
 
 

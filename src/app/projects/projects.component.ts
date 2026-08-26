@@ -135,4 +135,17 @@ rmchLMPhotos = [
     'osrs-lookup-images/osrs-lookup-clan-page.png',
   ];
 
+  osrsLookupV2Photos = [
+    'osrs-lookup-v2-images/home-light.png',
+    'osrs-lookup-v2-images/player-light.png',
+    'osrs-lookup-v2-images/player-light-full.png',
+    'osrs-lookup-v2-images/clan-light.png',
+    'osrs-lookup-v2-images/clan-light-full.png',
+    'osrs-lookup-v2-images/home-dark.png',
+    'osrs-lookup-v2-images/player-dark.png',
+    'osrs-lookup-v2-images/player-dark-full.png',
+    'osrs-lookup-v2-images/clan-dark.png',
+    'osrs-lookup-v2-images/clan-dark-full.png',
+  ];
+
 }
