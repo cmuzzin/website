@@ -1,4 +1,4 @@
-import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, HostListener } from '@angular/core';
 import { register } from 'swiper/element/bundle';
 
 register();
@@ -11,6 +11,21 @@ register();
     styleUrl: './projects.component.scss'
 })
 export class ProjectsComponent {
+  lightboxSrc: string | null = null;
+
+  openLightbox(src: string) {
+    this.lightboxSrc = src;
+  }
+
+  closeLightbox() {
+    this.lightboxSrc = null;
+  }
+
+  @HostListener('document:keydown.escape')
+  onEscape() {
+    this.closeLightbox();
+  }
+
   mopsPhotos = [
     'email-flow-images/email1.png', 
     'email-flow-images/email2.png',

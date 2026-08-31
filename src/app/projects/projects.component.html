@@ -11,11 +11,11 @@
                 </div>
             </div>
             <div class="card-image">
-                <swiper-container navigation="true" pagination="true">
+                <swiper-container navigation="true" pagination="true" auto-height="true" slides-per-view="1" breakpoints='{"768":{"slidesPerView":2,"spaceBetween":24},"1900":{"slidesPerView":3,"spaceBetween":32}}'>
                     @for(photo of mopsPhotos; track photo) {
                         <swiper-slide>
-                            <figure class="image is-2by1">
-                                <img [src]="photo">
+                            <figure class="image">
+                                <img [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -35,11 +35,11 @@
                 </div>
             </div>
             <div class="card-image">
-                <swiper-container navigation="true" pagination="true">
+                <swiper-container navigation="true" pagination="true" auto-height="true" slides-per-view="1" breakpoints='{"768":{"slidesPerView":2,"spaceBetween":24},"1900":{"slidesPerView":3,"spaceBetween":32}}'>
                     @for(photo of mcmPhotos; track photo) {
                         <swiper-slide>
-                            <figure class="image is-2by1">
-                                <img [src]="photo">
+                            <figure class="image">
+                                <img [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -59,11 +59,11 @@
                 </div>
             </div>
             <div class="card-image">
-                <swiper-container navigation="true" pagination="true">
+                <swiper-container navigation="true" pagination="true" auto-height="true" slides-per-view="1" breakpoints='{"768":{"slidesPerView":2,"spaceBetween":24},"1900":{"slidesPerView":3,"spaceBetween":32}}'>
                     @for(photo of spcPhotos; track photo) {
                         <swiper-slide>
-                            <figure class="image is-2by1">
-                                <img [src]="photo">
+                            <figure class="image">
+                                <img [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -87,7 +87,7 @@
                     @for(photo of rmchPhonePhotos; track photo) {
                         <swiper-slide class="mobile-swiper-slide">
                             <figure class="image">
-                                <img class="mobile" [src]="photo">
+                                <img class="mobile" [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -111,7 +111,7 @@
                     @for(photo of rmchDMPhotos; track photo) {
                         <swiper-slide class="mobile-swiper-slide">
                             <figure class="image">
-                                <img class="mobile" [src]="photo">
+                                <img class="mobile" [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -136,7 +136,7 @@
                     @for(photo of rmchLMPhotos; track photo) {
                         <swiper-slide class="mobile-swiper-slide">
                             <figure class="image">
-                                <img class="mobile" [src]="photo">
+                                <img class="mobile" [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -156,11 +156,11 @@
             </div>
         </div>
         <div class="card-image">
-            <swiper-container navigation="true" pagination="true">
+            <swiper-container navigation="true" pagination="true" auto-height="true" slides-per-view="1" breakpoints='{"768":{"slidesPerView":2,"spaceBetween":24},"1900":{"slidesPerView":3,"spaceBetween":32}}'>
                 @for(photo of afPhotos; track photo) {
                     <swiper-slide>
-                        <figure class="image is-2by1">
-                            <img [src]="photo">
+                        <figure class="image">
+                            <img [src]="photo" (click)="openLightbox(photo)">
                         </figure>
                     </swiper-slide>
                 }
@@ -189,7 +189,7 @@
                     @for(photo of osrsLookupPhotos; track photo) {
                         <swiper-slide>
                             <figure class="image">
-                                <img [src]="photo">
+                                <img [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -218,7 +218,7 @@
                     @for(photo of osrsLookupV2Photos; track photo) {
                         <swiper-slide>
                             <figure class="image">
-                                <img [src]="photo">
+                                <img [src]="photo" (click)="openLightbox(photo)">
                             </figure>
                         </swiper-slide>
                     }
@@ -227,5 +227,12 @@
         </div>
     </div>
   </div>
+
+@if (lightboxSrc) {
+    <div class="lightbox-overlay" (click)="closeLightbox()">
+        <button type="button" class="lightbox-close" (click)="closeLightbox()" aria-label="Close">&times;</button>
+        <img class="lightbox-image" [src]="lightboxSrc" (click)="$event.stopPropagation()">
+    </div>
+}
 
 

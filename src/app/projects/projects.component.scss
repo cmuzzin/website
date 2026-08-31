@@ -5,3 +5,58 @@
 .mobile-swiper-slide {
     margin-left: 10px;
 }
+
+.card-image img {
+    cursor: zoom-in;
+}
+
+// Desktop screenshots (MOPS, MCM, SPC, Analyses Factory, OSRS) otherwise
+// sit edge-to-edge in the card. Give them breathing room and cap how wide
+// they can get on very large screens, but let them scale with the card
+// instead of shrinking to a fixed size that no longer matches it -
+// click-to-enlarge (lightbox) is there for anyone who wants to read them.
+.card-image {
+    padding: 1.5rem;
+}
+
+.card-image .image:not(:has(img.mobile)) img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.lightbox-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+    z-index: 1000;
+    cursor: zoom-out;
+}
+
+.lightbox-image {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    cursor: default;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.lightbox-close {
+    position: fixed;
+    top: 1rem;
+    right: 1.5rem;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2.5rem;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 1001;
+}
