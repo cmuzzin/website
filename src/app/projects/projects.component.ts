@@ -125,22 +125,28 @@ rmchLMPhotos = [
 ];
 
  afPhotos = [
-  'AF/comparison.png',
-  'AF/chart.png',
-  'AF/distribution-table.png',
-  'AF/dist-table-open.png',
-  'AF/settings.png',
-  'AF/adverse-action.png',
-  'AF/af-wizard-aa-step1.png',
-  'AF/af-wizard-aa-step2.png',
-  'AF/af-wizard-aa-step3.png',
-  'AF/af-wizard-aa-step4.png',
+  // Guided wizard: create a score comparison analysis
   'AF/af-wizard-sa-step1.png',
   'AF/af-wizard-sa-step2.png',
   'AF/af-wizard-sa-step3.png',
   'AF/af-wizard-sa-step4.png',
   'AF/af-wizard-sa-step5.png',
   'AF/af-wizard-sa-step6.png',
+  // Score comparison analysis results
+  'AF/summary-chart.png',
+  'AF/comparison.png',
+  'AF/chart.png',
+  'AF/comparison-two.png',
+  'AF/distribution-table.png',
+  'AF/dist-table-open.png',
+  // Guided wizard: create an adverse action analysis
+  'AF/af-wizard-aa-step1.png',
+  'AF/af-wizard-aa-step2.png',
+  'AF/af-wizard-aa-step3.png',
+  'AF/af-wizard-aa-step4.png',
+  // Adverse action analysis results
+  'AF/adverse-action.png',
+  'AF/settings.png',
 ];
 
   osrsLookupPhotos = [
