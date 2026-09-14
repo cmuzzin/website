@@ -171,14 +171,14 @@
     <div class="column is-10 is-offset-1">
         <div class="card has-background-grey-lighter">
             <div class="card-content equal-height">
-                <p class="title has-text-dark">OSRS Stat Lookup</p>
+                <p class="title has-text-dark">Rune Tools</p>
                 <p class="subtitle has-text-dark">AI-assisted side project built with Claude</p>
                 <div class="content mt-3">
                     <p>
-                        A tool for looking up Old School RuneScape player stats - search any username to see hiscores levels, boss kill counts, minigame scores, clan memberships, and recent XP gains, powered by the Wise Old Man API. Built to hone my skills working with Claude.
+                        A growing set of tools for Old School RuneScape players and clans, powered by the Wise Old Man API - look up any player's hiscores, XP progress, collection log, and boss/minigame stats, browse full clan rosters and events, plan training with an XP/hour calculator, and follow a player's recent activity. Automatically adapts to a light or dark theme based on your system preference. Renamed and rebuilt from the original OSRS Stat Lookup with a much larger feature set and a refreshed design. Built to hone my skills working with Claude.
                     </p>
                     <div class="buttons">
-                        <a class="button" href="https://osrs-lookup.com/" target="_blank" rel="noopener noreferrer">
+                        <a class="button" href="https://rune-tools.com/" target="_blank" rel="noopener noreferrer">
                             Web
                         </a>
                     </div>
@@ -186,36 +186,7 @@
             </div>
             <div class="card-image">
                 <swiper-container navigation="true" pagination="true" auto-height="true">
-                    @for(photo of osrsLookupPhotos; track photo) {
-                        <swiper-slide>
-                            <figure class="image">
-                                <img [src]="photo" (click)="openLightbox(photo)">
-                            </figure>
-                        </swiper-slide>
-                    }
-                </swiper-container>
-            </div>
-        </div>
-    </div>
-    <div class="column is-10 is-offset-1">
-        <div class="card has-background-grey-lighter">
-            <div class="card-content equal-height">
-                <p class="title has-text-dark">OSRS Stat Lookup ( Redesign )</p>
-                <p class="subtitle has-text-dark">Light &amp; Dark Theme UI Refresh</p>
-                <div class="content mt-3">
-                    <p>
-                        A restyled pass on OSRS Stat Lookup - condensed header with an inline search bar, refreshed color palette, and full light/dark theme support across the home, player, and clan pages.
-                    </p>
-                    <div class="buttons">
-                        <a class="button" href="https://osrs-lookup.com/" target="_blank" rel="noopener noreferrer">
-                            Web
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="card-image">
-                <swiper-container navigation="true" pagination="true" auto-height="true">
-                    @for(photo of osrsLookupV2Photos; track photo) {
+                    @for(photo of runeToolsPhotos; track photo) {
                         <swiper-slide>
                             <figure class="image">
                                 <img [src]="photo" (click)="openLightbox(photo)">

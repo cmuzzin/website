@@ -149,24 +149,17 @@ rmchLMPhotos = [
   'AF/settings.png',
 ];
 
-  osrsLookupPhotos = [
-    'osrs-lookup-images/osrs-lookup-home.png',
-    'osrs-lookup-images/osrs-lookup-home-recent-searches.png',
-    'osrs-lookup-images/osrs-lookup-player-page.png',
-    'osrs-lookup-images/osrs-lookup-clan-page.png',
-  ];
-
-  osrsLookupV2Photos = [
-    'osrs-lookup-v2-images/home-light.png',
-    'osrs-lookup-v2-images/player-light.png',
-    'osrs-lookup-v2-images/player-light-full.png',
-    'osrs-lookup-v2-images/clan-light.png',
-    'osrs-lookup-v2-images/clan-light-full.png',
-    'osrs-lookup-v2-images/home-dark.png',
-    'osrs-lookup-v2-images/player-dark.png',
-    'osrs-lookup-v2-images/player-dark-full.png',
-    'osrs-lookup-v2-images/clan-dark.png',
-    'osrs-lookup-v2-images/clan-dark-full.png',
+  runeToolsPhotos = [
+    'rune_tools_screenshots/home-light.png',
+    'rune_tools_screenshots/home-dark.png',
+    'rune_tools_screenshots/stat-lookup-light.png',
+    'rune_tools_screenshots/stat-lookup-dark.png',
+    'rune_tools_screenshots/player-light.png',
+    'rune_tools_screenshots/player-dark.png',
+    'rune_tools_screenshots/xp-calculator-light.png',
+    'rune_tools_screenshots/xp-calculator-dark.png',
+    'rune_tools_screenshots/activity-feed-light.png',
+    'rune_tools_screenshots/activity-feed-dark.png',
   ];
 
 }
