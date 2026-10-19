@@ -156,6 +156,8 @@ rmchLMPhotos = [
     'rune_tools_screenshots/stat-lookup-dark.png',
     'rune_tools_screenshots/player-light.png',
     'rune_tools_screenshots/player-dark.png',
+    'rune_tools_screenshots/clan-light.png',
+    'rune_tools_screenshots/clan-dark.png',
     'rune_tools_screenshots/xp-calculator-light.png',
     'rune_tools_screenshots/xp-calculator-dark.png',
     'rune_tools_screenshots/activity-feed-light.png',
