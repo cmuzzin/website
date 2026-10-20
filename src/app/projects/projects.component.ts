@@ -149,6 +149,38 @@ rmchLMPhotos = [
   'AF/settings.png',
 ];
 
+  colorPickerDarkPhotos = [
+    'color_picker_screenshots/01-pick-empty-dark.png',
+    'color_picker_screenshots/04-pick-shapes-dark.png',
+    'color_picker_screenshots/05-pick-shapes-selected-dark.png',
+    'color_picker_screenshots/06-pick-saved-toast-dark.png',
+    'color_picker_screenshots/07-pick-rainbow-dark.png',
+    'color_picker_screenshots/08-pick-rainbow-selected-dark.png',
+    'color_picker_screenshots/09-pick-rainbow-palette-dark.png',
+    'color_picker_screenshots/02-saved-empty-dark.png',
+    'color_picker_screenshots/10-saved-dark.png',
+    'color_picker_screenshots/03-mix-empty-dark.png',
+    'color_picker_screenshots/11-mix-dark.png',
+    'color_picker_screenshots/12-mix-red-yellow-dark.png',
+    'color_picker_screenshots/13-mix-blue-yellow-dark.png',
+  ];
+
+  colorPickerLightPhotos = [
+    'color_picker_screenshots/01-pick-empty-light.png',
+    'color_picker_screenshots/04-pick-shapes-light.png',
+    'color_picker_screenshots/05-pick-shapes-selected-light.png',
+    'color_picker_screenshots/06-pick-saved-toast-light.png',
+    'color_picker_screenshots/07-pick-rainbow-light.png',
+    'color_picker_screenshots/08-pick-rainbow-selected-light.png',
+    'color_picker_screenshots/09-pick-rainbow-palette-light.png',
+    'color_picker_screenshots/02-saved-empty-light.png',
+    'color_picker_screenshots/10-saved-light.png',
+    'color_picker_screenshots/03-mix-empty-light.png',
+    'color_picker_screenshots/11-mix-light.png',
+    'color_picker_screenshots/12-mix-red-yellow-light.png',
+    'color_picker_screenshots/13-mix-blue-yellow-light.png',
+  ];
+
   runeToolsPhotos = [
     'rune_tools_screenshots/home-light.png',
     'rune_tools_screenshots/home-dark.png',

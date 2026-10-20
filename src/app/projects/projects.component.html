@@ -197,6 +197,66 @@
             </div>
         </div>
     </div>
+
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-grey-lighter">
+            <div class="card-content equal-height">
+                <p class="title has-text-dark">Color Picker</p>
+                <p class="subtitle has-text-dark">Dark Mode</p>
+                <div class="content mt-3">
+                    <p>
+                        Mobile app for identifying colors from a photo - take or upload a picture and tap anywhere to sample its exact hex/RGB value, or browse every color detected in the image. Save favorite colors and mix them together on a dedicated tab to preview the blended result, shown here in dark mode.
+                    </p>
+                    <div class="buttons">
+                        <a class="button" href="https://github.com/cmuzzin/Color-Detection" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true" slides-per-view="5">
+                    @for(photo of colorPickerDarkPhotos; track photo) {
+                        <swiper-slide class="mobile-swiper-slide">
+                            <figure class="image">
+                                <img class="mobile" [src]="photo" (click)="openLightbox(photo)">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
+
+    <div class="column is-10 is-offset-1">
+        <div class="card has-background-grey-lighter">
+            <div class="card-content equal-height">
+                <p class="title has-text-dark">Color Picker</p>
+                <p class="subtitle has-text-dark">Light Mode</p>
+                <div class="content mt-3">
+                    <p>
+                        The same app in light mode - showing color sampling from an image, the saved colors library, and the mix tab used to combine saved colors into a new blended swatch.
+                    </p>
+                    <div class="buttons">
+                        <a class="button" href="https://github.com/cmuzzin/Color-Detection" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="card-image">
+                <swiper-container navigation="true" pagination="true" slides-per-view="5">
+                    @for(photo of colorPickerLightPhotos; track photo) {
+                        <swiper-slide class="mobile-swiper-slide">
+                            <figure class="image">
+                                <img class="mobile" [src]="photo" (click)="openLightbox(photo)">
+                            </figure>
+                        </swiper-slide>
+                    }
+                </swiper-container>
+            </div>
+        </div>
+    </div>
   </div>
 
 @if (lightboxSrc) {
